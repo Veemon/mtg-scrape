@@ -7,6 +7,8 @@ def enc(msg):
 import scrapy
 from scrapy.selector import Selector
 
+print('Downloading Card ID\'s..')
+
 class MagicSpider(scrapy.Spider):
 	name = 'magicspider'
 
